@@ -96,3 +96,30 @@ input[type="password"] {
   right: 1rem;
   scale: 2;
 }
+
+.register-btn {
+  position: relative;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #b9d7f8;
+  color: #000000;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.register-btn:hover {
+  background-color: #d9eafe;
+}
+
+.register-btn:active {
+  transform: scale(0.9); /* Corrected property to scale the button */
+}
+.Logo {
+  position: absolute;
+  padding-top: 0.15rem;
+  right: 1rem;
+  scale: 2;
+}
